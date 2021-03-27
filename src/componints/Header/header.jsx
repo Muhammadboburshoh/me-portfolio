@@ -9,7 +9,7 @@ function Header () {
     <header className="header">
       <div className="container">
         <nav className="header-nav">
-          <Link to="#">
+          <Link className="header__logo" to="#">
             <img src={Logo} alt="Me logo" width="80" height="80" />
           </Link>
           
