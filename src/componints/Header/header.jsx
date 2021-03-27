@@ -9,19 +9,19 @@ function Header () {
     <header className="header">
       <div className="container">
         <nav className="header-nav">
-          <Link>
+          <Link to="#">
             <img src={Logo} alt="Me logo" width="80" height="80" />
           </Link>
           
           <ul className="header__menu">
             <li className="haeder__menu-item">
-              <Link className="header__menu-link">About Me</Link>
+              <Link to="#" className="header__menu-link">About Me</Link>
             </li>
             <li className="haeder__menu-item">
-              <Link className="header__menu-link">Work</Link>
+              <Link to="#" className="header__menu-link">Work</Link>
             </li>
             <li className="haeder__menu-item white-button-item">
-              <Link className="header__menu-link white-button">
+              <Link to="#" className="header__menu-link white-button">
                 <span className="white-button-span">Contact me</span>
               </Link>
             </li>
@@ -36,11 +36,11 @@ function Header () {
             <h1 className="header__intro-heading">I'm Muhammadbobur, a Junior Web Developer</h1>
 
             <div className="header__intro-buttons">
-              <Link className="header__intro-button green-button">
+              <Link  to="#" className="header__intro-button green-button">
                 <span className="white-button-span">Contact me</span>
               </Link>
 
-              <Link className="header__intro-button white-button">
+              <Link  to="#" className="header__intro-button white-button">
                 <span className="white-button-span">About me</span>
               </Link>
             </div>
