@@ -1,0 +1,68 @@
+.about {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about__lift {
+  width: 50%;
+}
+
+.about__continer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__me-img {
+  border-radius: 10px;
+}
+
+.about__left-text {
+  color: #888;
+  margin-bottom: 30px;
+  /* margin-bottom: 10px; */
+}
+
+.about__left-text:nth-child(4){
+  margin-bottom: 10px;
+}
+
+.about__me-name {
+  background-color: #00c59c;
+  color: #fff;
+  padding-left: 3px;
+  padding-right: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.about__me-technologies {
+  color: #00c59c;
+}
+
+.about__me-telegram {
+  background-color: #132A59;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 3px;
+  padding-right: 5px;
+  border-radius: 2px;
+}
+
+.about__social_networks {
+  display: flex;
+}
+
+.about__social_network {
+  margin-right: 20px;
+}
+
+.about__social_networ-icon {
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+
+.about__social_networ-icon:hover {
+  transform: scale(1.05);
+  /* background-color: #123; */
+}
