@@ -20,8 +20,8 @@ function Header () {
             <li className="haeder__menu-item">
               <Link to="#" className="header__menu-link">Work</Link>
             </li>
-            <li className="haeder__menu-item white-button-item">
-              <Link to="#" className="header__menu-link white-button">
+            <li className="haeder__menu-item">
+              <Link to="#" className="white-button">
                 <span className="white-button-span">Contact me</span>
               </Link>
             </li>

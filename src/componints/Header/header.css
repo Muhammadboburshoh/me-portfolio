@@ -31,7 +31,31 @@
 .header__menu-link {
   text-decoration: none;
   color: #fff;
+  padding: 10px;
+  position: relative;
+
+  transition: all ease 0.4s;
 }
+
+.header__menu-link::before {
+  content: "";
+  display: flex;
+  position: absolute;
+  /* z-index: -; */
+  background-color: #fff;
+  top: 95%;
+  left: 0;
+  width: 0%;
+  height: 0;
+  transition: all ease 0.4s;
+}
+
+.header__menu-link:hover::before {
+  width: 100%;
+  height: 2px;
+  z-index: 1;
+}
+
 
 .white-button {
   padding-top: 10px;
@@ -39,6 +63,8 @@
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
   box-shadow: 0 0 0 2px #fff;
   position: relative;
   transition: all ease 0.4s;
@@ -81,7 +107,6 @@
 /* header-intro */
 
 .header__intro {
-
   background-image: url("../../images/intro.png");
   background-repeat: no-repeat;
   padding-top: 100px;
@@ -127,9 +152,6 @@
   transition: all ease 0.4s;
 }
 
-
-
-
 .green-button::before {
   content: "";
   position: absolute;
@@ -150,5 +172,4 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   z-index: 1;
-
 }
