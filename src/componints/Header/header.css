@@ -1,0 +1,154 @@
+.header {
+  background-color: #132A59;
+  color: #fff;
+}
+
+.container {
+  max-width: 1130px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header__menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  padding-top: 20px;
+  display: flex;
+  
+}
+
+.haeder__menu-item {
+  margin-right: 30px;
+}
+
+.haeder__menu-item:last-child {
+  margin-right: 0;
+}
+
+.header__menu-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.white-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px #fff;
+  position: relative;
+  transition: all ease 0.4s;
+}
+
+.white-button::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  box-shadow: 0 0 0 2px #00C59C;
+  z-index: -1;
+  background-color: #00C59C; 
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border-top-right-radius: 500%;
+  transition: all ease 0.4s;
+}
+
+.white-button:hover::before {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 1;
+}
+
+.white-button-span {
+  position: relative;
+  z-index: 2;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* header-intro */
+
+.header__intro {
+
+  background-image: url("../../images/intro.png");
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-position: right center;
+  background-size: contain;
+}
+
+.header__intro-left{
+  max-width: 500px;
+}
+
+.header__intro-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.header__intro-teg {
+  color: #00C59C;
+}
+
+.header__intro-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.header__intro-button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.green-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px #00C59C;
+  background-color: #00C59C;
+  position: relative;
+  transition: all ease 0.4s;
+}
+
+
+
+
+.green-button::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  box-shadow: 0 0 0 2px #fff;
+  z-index: -1;
+  background-color: #132A59; 
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  border-top-right-radius: 500%;
+  transition: all ease 0.4s;
+}
+
+.green-button:hover::before {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 1;
+
+}
