@@ -20,7 +20,6 @@
 .about__left-text {
   color: #888;
   margin-bottom: 30px;
-  /* margin-bottom: 10px; */
 }
 
 .about__left-text:nth-child(4){
@@ -64,5 +63,45 @@
 
 .about__social_networ-icon:hover {
   transform: scale(1.05);
-  /* background-color: #123; */
+}
+
+@media only screen and (max-width: 900px) {
+  .about__me-img {
+    margin-left: 50px;
+    max-width: 45%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about__continer {
+    flex-direction: column-reverse;
+  }
+
+  .about__me-img {
+    clear: both;
+    margin: 0;
+    margin-bottom: 20px;
+    min-width: 60%; 
+  }
+
+  .about__lift {
+    min-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about__me-img {
+    clear: both;
+    margin: 0;
+    margin-bottom: 20px;
+    min-width: 70%; 
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about__me-name {
+    display: inline-block;
+  }
 }
