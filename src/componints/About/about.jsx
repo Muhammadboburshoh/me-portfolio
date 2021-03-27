@@ -2,6 +2,9 @@ import { Link } from 'react-router-dom'
 
 import "./about.css"
 import MeImg from "../../images/meImg.jpg"
+import Telegram from "../../images/telegram-app.svg"
+import Github from "../../images/github.svg"
+import Twitter from "../../images/twitter.svg"
 
 
 function About () {
@@ -17,13 +20,13 @@ function About () {
 
           <div className="about__social_networks">
             <Link to="#" className="about__social_network">
-              <img className="about__social_networ-icon" src="https://img.icons8.com/nolan/64/telegram-app.png" alt="social_networ-icon" />
+              <img className="about__social_networ-icon" src={Telegram} alt="social_networ-icon" />
             </Link>
             <Link to="#" className="about__social_network">
-            <img className="about__social_networ-icon" src="https://img.icons8.com/nolan/64/twitter.png" alt="social_networ-icon" />
+            <img className="about__social_networ-icon" src={Twitter} alt="social_networ-icon" />
             </Link>
             <Link to="#" className="about__social_network">
-            <img className="about__social_networ-icon" src="https://img.icons8.com/nolan/64/github.png" alt="social_networ-icon" />
+            <img className="about__social_networ-icon" src={Github} alt="social_networ-icon" />
             </Link>
           </div>
         </div>
