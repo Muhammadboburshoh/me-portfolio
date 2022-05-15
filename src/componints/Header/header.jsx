@@ -15,7 +15,7 @@ function Header () {
           
           <ul className="header__menu">
             <li className="haeder__menu-item">
-              <Link to="#" className="header__menu-link">About Me</Link>
+              <Link to="#about" className="header__menu-link">About me</Link>
             </li>
             <li className="haeder__menu-item">
               <Link to="#" className="header__menu-link">Work</Link>
@@ -31,16 +31,16 @@ function Header () {
         <div className="header__intro">
           <div className="header__intro-left">
             <p className="header__intro-text">
-              <span className="header__intro-teg">&lt;head&gt;</span>Hey, what's up?<span className="header__intro-teg">&lt;head&gt;</span>
+              <span className="header__intro-teg">&lt;head&gt;</span>Hey, what's up?<span className="header__intro-teg">&lt;/head&gt;</span>
             </p>
-            <h1 className="header__intro-heading">I'm Muhammadbobur, a Junior Web Developer</h1>
+            <h1 className="header__intro-heading">My name is Muhammadbobur, i am a web Beckend Programmer</h1>
 
             <div className="header__intro-buttons">
               <Link  to="#" className="header__intro-button green-button">
                 <span className="white-button-span">Contact me</span>
               </Link>
 
-              <Link  to="#" className="header__intro-button white-button">
+              <Link  to="#about" className="header__intro-button white-button">
                 <span className="white-button-span">About me</span>
               </Link>
             </div>
