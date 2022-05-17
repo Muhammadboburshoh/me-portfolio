@@ -5,6 +5,7 @@ import bookShopImg from "../../images/book-shop.png"
 import chatApp from "../../images/chat-app.png"
 import foodOrder from "../../images/food-order.png"
 import foodDashboard from "../../images/food-dashboard.png"
+import messageNode from "../../images/message-node.png"
 
 
 
@@ -68,6 +69,19 @@ function Work ({myRef}) {
               <h3>Food Order Dashboard</h3>
               <p>Was the dashboard of the site above.</p>
               <p>Technologies such as ReactJS were used to build the site. Client Side Rendering.</p>
+              <div>
+                <Link onClick={openTab("https://github.com/Muhammadboburshoh/realtime_chat")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
+              </div>
+            </div>
+          </li>
+          <li className="work-item">
+            <div className="work-img-wrapper">
+              <img src={messageNode} alt="" />
+            </div>
+            <div className="work-text-wrapper">
+              <h3>Message Node</h3>
+              <p>This platform designed for industry professionals to share their knowledge.</p>
+              <p>Technologies such as NodeJs, Express.js, MongoDb were used to build the site. Client Side Rendering.</p>
               <div>
                 <Link onClick={openTab("https://github.com/Muhammadboburshoh/realtime_chat")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
               </div>
