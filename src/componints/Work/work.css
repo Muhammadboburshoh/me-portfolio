@@ -1,7 +1,7 @@
 .work-main {
   background-color: #b0b0b092;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .work-list {
@@ -56,3 +56,4 @@
 .github-btn::before {
   background-color: #2A4655; 
 }
+

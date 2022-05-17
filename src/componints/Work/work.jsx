@@ -11,10 +11,6 @@ import messageNode from "../../images/message-node.png"
 
 function Work ({myRef}) {
 
-  function openTab(url) {
-    window.open(url);
-  }
-
   return (
     <main className="work-main" ref={myRef}>
       <div className="container">
@@ -28,8 +24,8 @@ function Work ({myRef}) {
               <p>This site dedicated to selling books, where you can buy books and advertise your own books for sale, there is also payment system.</p>
               <p>Technologies such as NodeJs, Express.js, MongoDb were used to build the site. Server Side Rendering.</p>
               <div>
-                <Link onClick={openTab("https://github.com/Muhammadboburshoh/book-shop-MongoDb")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
-                <Link onClick={openTab("https://books-shop-x.herokuapp.com")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Site link</span></Link>
+                <Link to="//github.com/Muhammadboburshoh/book-shop-MongoDb" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
+                <Link to="//books-shop-x.herokuapp.com" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Site link</span></Link>
               </div>
             </div>
           </li>
@@ -42,8 +38,8 @@ function Work ({myRef}) {
               <p>Realtime chat app designed to allow researchers in a specific programming language to share ideas and search for solutions together.</p>
               <p>Technologies such as NodeJs, Express.js, Socket.io were used to build the site. Server Side Rendering.</p>
               <div>
-                <Link onClick={openTab("https://github.com/Muhammadboburshoh/realtime_chat")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
-                <Link onClick={openTab("https://dev-community-chat.herokuapp.com")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Site link</span></Link>
+                <Link to="//github.com/Muhammadboburshoh/realtime_chat" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
+                <Link to="//dev-community-chat.herokuapp.com" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Site link</span></Link>
               </div>
             </div>
           </li>
@@ -56,8 +52,8 @@ function Work ({myRef}) {
               <p>This site designed to take online orders from customers in kitchens. there is a separate dashboard for the chef to take orders from customers.</p>
               <p>Technologies such as NodeJs, Express.js, Socket.io, PosgreSQL were used to build the site. Client Side Rendering.</p>
               <div>
-                <Link onClick={openTab("https://github.com/Muhammadboburshoh/realtime_chat")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Server source</span></Link>
-                <Link onClick={openTab("https://dev-community-chat.herokuapp.com")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Client source</span></Link>
+                <Link to="//github.com/Muhammadboburshoh/Food_Orders_Server" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Server source</span></Link>
+                <Link to="//github.com/Muhammadboburshoh/Food_Orders_client" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Client source</span></Link>
               </div>
             </div>
           </li>
@@ -70,7 +66,7 @@ function Work ({myRef}) {
               <p>Was the dashboard of the site above.</p>
               <p>Technologies such as ReactJS were used to build the site. Client Side Rendering.</p>
               <div>
-                <Link onClick={openTab("https://github.com/Muhammadboburshoh/realtime_chat")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
+                <Link to="//github.com/Muhammadboburshoh/Food_Orders_dashboard" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
               </div>
             </div>
           </li>
@@ -83,7 +79,7 @@ function Work ({myRef}) {
               <p>This platform designed for industry professionals to share their knowledge.</p>
               <p>Technologies such as NodeJs, Express.js, MongoDb were used to build the site. Client Side Rendering.</p>
               <div>
-                <Link onClick={openTab("https://github.com/Muhammadboburshoh/realtime_chat")} to="" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
+                <Link to="//github.com/Muhammadboburshoh/message_node_server" target="_blank" className="work-btn green-button github-btn"><span className="white-button-span">Github source</span></Link>
               </div>
             </div>
           </li>
