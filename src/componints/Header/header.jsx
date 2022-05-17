@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import Logo from "../../images/logo.svg"
 import "./header.css"
 
-function Header () {
+function Header ({executeScroll}) {
 
   return(
     <header className="header">
@@ -15,15 +15,15 @@ function Header () {
           
           <ul className="header__menu">
             <li className="haeder__menu-item">
-              <Link to="#about" className="header__menu-link">About me</Link>
+              <Link onClick={executeScroll} to="#" className="header__menu-link">About me</Link>
             </li>
             <li className="haeder__menu-item">
-              <Link to="#" className="header__menu-link">Work</Link>
+              <Link onClick={executeScroll} to="#" className="header__menu-link">Work</Link>
             </li>
             <li className="haeder__menu-item">
-              <Link to="#" className="white-button">
+              <a href="tel:+998950551612" className="white-button">
                 <span className="white-button-span">Contact me</span>
-              </Link>
+              </a>
             </li>
           </ul>
         </nav>
@@ -36,11 +36,11 @@ function Header () {
             <h1 className="header__intro-heading">My name is Muhammadbobur, i am a web Beckend Programmer</h1>
 
             <div className="header__intro-buttons">
-              <Link  to="#" className="header__intro-button green-button">
+              <a href="tel:+998950551612" className="header__intro-button green-button">
                 <span className="white-button-span">Contact me</span>
-              </Link>
+              </a>
 
-              <Link  to="#about" className="header__intro-button white-button">
+              <Link onClick={executeScroll} to="#about" className="header__intro-button white-button">
                 <span className="white-button-span">About me</span>
               </Link>
             </div>

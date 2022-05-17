@@ -1,17 +1,15 @@
 import { Link } from 'react-router-dom'
-
 import "./about.css"
 import MeImg from "../../images/meImg.jpg"
 import Telegram from "../../images/telegram-app.svg"
 import Github from "../../images/github.svg"
-// import Twitter from "../../images/twitter.svg"
 
 
 
-function About () {
+function About ({myRef}) {
 
   return (
-    <main id='about' className="about">
+    <main ref={myRef} id='about' className="about">
       <div className="container about__continer">
         <div className="about__lift">
           <p>
@@ -21,16 +19,11 @@ function About () {
           </p>
           <p className="about__left-text">I am a backend programmer in the <span className="about__me-name">JavaScript</span> programming language. I use <span className="about__me-name">NodeJS</span> technology in the backend.</p>
           <p className="about__left-text">The main technologies I know are <span className="about__me-technologies">HTML, CSS, JavaScript, TypeScript, NodeJS, Express.JS, Postgres, MongoDB.</span></p>
-          {/* <p className="about__left-text">If you want to know more, write to my telegram: <br/><Link to="//t.me/MuhammadboburDeveloper" target="_blank" className="about__me-telegram">t.me/MuhammadboburDeveloper</Link></p> */}
-          {/* <p className="about__left-text">Subscribe to my social media blogs:</p> */}
 
           <div className="about__social_networks">
             <Link to="//t.me/nodedeveloper" target="_blank" className="about__social_network">
               <img className="about__social_networ-icon" src={Telegram} alt="social_networ-icon" />
             </Link>
-            {/* <Link to="//twitter.com/Muhamma_Bobur" target="_blank" className="about__social_network">
-            <img className="about__social_networ-icon" src={Twitter} alt="social_networ-icon" />
-            </Link> */}
             <Link to="//github.com/muhammadboburshoh" target="_blank" className="about__social_network">
             <img className="about__social_networ-icon" src={Github} alt="social_networ-icon" />
             </Link>
